@@ -2,6 +2,8 @@
 <img width="1000" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/c49cbc99-cbe0-4e1a-be40-a254320df3a9" >
 
 <img width="200" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/c1d8754d-2c81-4aea-98b5-e7e892771407" >
+<img width="200" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/dd9bf55f-c684-41be-8607-9954afd38e5a" >
+<img width="200" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/501b1a41-6f31-4e37-b90d-9e0b23187a62" >
 <img width="200" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/4bab8ada-8811-452c-b683-3d44784e9d1c" >
 
 
