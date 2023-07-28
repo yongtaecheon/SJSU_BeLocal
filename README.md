@@ -1,5 +1,8 @@
-# SJSU Be Local
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93231b6f-5c9a-4b47-b334-657a98686bdd/Untitled.png)
+# Be Local 🗺️
+<img width="600" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/c49cbc99-cbe0-4e1a-be40-a254320df3a9" >
+
+<img width="200" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/c1d8754d-2c81-4aea-98b5-e7e892771407" >
+<img width="200" alt="image" src="https://github.com/yongtaecheon/SJSU_BeLocal/assets/42794553/4bab8ada-8811-452c-b683-3d44784e9d1c" >
 
 **Be Local** is an application that connects Koreans with local knowledge and experience to foreign travelers. Travelers can explore South Korea with locals who are well-acquainted with hidden gems like local eateries and shops, rather than relying on professional guides. This approach presents a new paradigm distinct from conventional travel guide services.
 
