@@ -106,4 +106,9 @@ div.scrollmenu img:hover {
     color:aliceblue;
 }
 
+.wallet_money{
+    white-space:nowrap;
+    color:#a9a9a9;
+    font-size:40px;
+}
 
