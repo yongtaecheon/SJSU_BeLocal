@@ -4,11 +4,17 @@
 
 .qrect .text1{
     position:absolute;
-    top:10%;
-    color:rgb(223, 9, 9);
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:rgb(68, 98, 127);
 }
 .qrect .text2{
     position:absolute;
-    top:57%;
+    top:65%;
+    left:50%;
+    transform: translate(-50%, -50%); /*중앙정렬*/
+    white-space:nowrap; /*줄바꿈 금지*/
     color:rgb(68, 98, 127);
 }

@@ -27,6 +27,6 @@ urlpatterns = [
     path('reward_done/', belocal_app.views.reward_done, name='reward_done'),
     path('main/home/', belocal_app.views.main_home, name="main_home"),
     path('main/wallet/', belocal_app.views.main_wallet, name="main_wallet"),
-    path('main/map/', belocal_app.views.main_wallet, name="main_map"),
-    path('main/chat/', belocal_app.views.main_wallet, name="main_chat"),
+    path('main/map/', belocal_app.views.main_map, name="main_map"),
+    path('main/chat/', belocal_app.views.main_chat, name="main_chat"),
 ]

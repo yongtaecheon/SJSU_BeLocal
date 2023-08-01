@@ -1,0 +1,109 @@
+.desc_app {
+    color:#818181;
+    white-space:nowrap; 
+}
+
+.desc_cat{
+    white-space:nowrap;
+    font-weight: 600;
+    font-size:20px;
+}
+
+
+.appname {
+    position:absolute;
+    top:11%;
+    font-size:30px;
+    font-weight: 600;
+}
+
+input::-webkit-input-placeholder{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png) ;
+    background-size: contain;
+    background-position:  1px center;
+    background-repeat: no-repeat;
+    text-indent: 0;
+    text-align:center;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+  
+div.scrollmenu img {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+  
+div.scrollmenu img:hover {
+    background-color: #e6e4e4;
+}
+
+.scrollitem{
+    position:relative;
+}
+.scrollitem .text1{
+    position:absolute;
+    top: 120%;
+    left: 10%;
+    font-size:30px;
+    color:aliceblue;
+}
+
+.scrollitem .text2{
+    position:absolute;
+    top: 250%;
+    left: 50%;
+    font-size:20px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+    text-shadow: -1px 0px rgb(138, 134, 134), 0px 1px rgb(138, 134, 134), 1px 0px rgb(138, 134, 134), 0px -1px rgb(138, 134, 134);
+}
+
+.scrollitem .text3{
+    position:absolute;
+    top: 350%;
+    left: 50%;
+    font-size:15px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+    text-shadow: -1px 0px rgb(138, 134, 134), 0px 1px rgb(138, 134, 134), 1px 0px rgb(138, 134, 134), 0px -1px rgb(138, 134, 134);
+}
+.scrollitem .text4{
+    position:absolute;
+    top: 180%;
+    left: 70%;
+    font-size:15px;
+    font-weight: 600;
+    white-space:nowrap; 
+    color:rgb(237, 183, 8);
+}
+
+.scrollitem .text6{
+    position:absolute;
+    top: 90%;
+    left: 45%;
+    font-size:15px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+}
+
+.scrollitem .text5{
+    position:absolute;
+    top: 80%;
+    left: 32%;
+    font-size:25px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+}
+
+
