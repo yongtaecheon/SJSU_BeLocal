@@ -25,3 +25,9 @@ def main_home(request):
 
 def main_wallet(request):
     return render(request, 'main/wallet.html')
+
+def main_map(request):
+    return render(request, 'main/map.html')
+
+def main_chat(request):
+    return render(request, 'main/chat.html')
