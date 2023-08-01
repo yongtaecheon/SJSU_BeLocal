@@ -10,3 +10,6 @@ def cover(request):
 
 def init(request):
     return render(request, 'init.html')
+
+def login_personal(request):
+    return render(request, 'login_personal.html')

@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', belocal_app.views.cover),
     path('init/', belocal_app.views.init),
+    path('login_personal/',belocal_app.views.login_personal)
 ]
