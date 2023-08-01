@@ -1,0 +1,16 @@
+.qrect{
+    position:relative;
+}
+
+.qrect .text1{
+    position:absolute;
+    top:10%;
+    left:20%;
+    color:rgb(68, 98, 127);
+}
+.qrect .text2{
+    position:absolute;
+    top:57%;
+    left:10%;
+    color:rgb(68, 98, 127);
+}

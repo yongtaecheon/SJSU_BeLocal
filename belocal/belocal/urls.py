@@ -20,6 +20,9 @@ import belocal_app.views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', belocal_app.views.cover),
-    path('init/', belocal_app.views.init),
+    path('', belocal_app.views.cover, name='main'),
+    path('reward_ask/', belocal_app.views.reward_ask, name='reward_ask'),
+    path('question1/', belocal_app.views.question1, name='question1'),
+    path('question2/', belocal_app.views.question2, name='question2'),
+    path('reward_done/', belocal_app.views.reward_done, name='reward_done'),
 ]

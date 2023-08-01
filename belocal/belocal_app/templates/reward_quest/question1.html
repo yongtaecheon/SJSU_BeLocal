@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -68,23 +69,30 @@
       }
     </style>
     <link href="{% static 'css/cover.css'%}" rel="stylesheet">
+    <link href="{% static 'css/question.css'%}" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-bg-light" style="font-weight: 600;">
+  <body class="d-flex h-100 text-center text-bg-light">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
   </header>
 
   <main class="px-3">
-    <a href={%url 'question1'%}>
-      <img width="100%" src="{%static 'img/main_logo.png'%}">
+    <img width="80%" src="{%static 'img/q1.png'%}">
+    <h1 class="mt-3 mb-5">Q1. Are you<br>a Human?</h1>
+    <div class="qrect">
+        <img class="mb-3" width="100%" src="{%static 'img/qrect1.png'%}">
+        <p class="text1">A1. Yes. I am a human.</p>
+        <img class="mb-4" width="100%" src="{%static 'img/qrect2.png'%}">
+        <p class="text2">A2. NO. I am not a human.</p>
+    </div>
+    <a href="{%url 'question2'%}">
+        <img width="20%" src="{%static 'img/reward_next.png'%}">
     </a>
-    <p class="mb-3" style="font-size:72px;">Be Local</p>
-    <p style="font-weight: 400;" class="text-secondary">Hello, Korea :)</p>
   </main>
 
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+  <footer class="mt-auto text-secondary">
+    <p>Be Local</p>
   </footer>
 </div>
 
