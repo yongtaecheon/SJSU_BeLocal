@@ -25,4 +25,6 @@ urlpatterns = [
     path('question1/', belocal_app.views.question1, name='question1'),
     path('question2/', belocal_app.views.question2, name='question2'),
     path('reward_done/', belocal_app.views.reward_done, name='reward_done'),
+    path('main/home/', belocal_app.views.main_home, name="main_home"),
+    path('main/wallet/', belocal_app.views.main_wallet, name="main_wallet"),
 ]

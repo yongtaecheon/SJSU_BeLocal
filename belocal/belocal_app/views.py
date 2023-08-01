@@ -19,3 +19,9 @@ def question2(request):
 
 def reward_done(request):
     return render(request, 'reward_quest/reward_done.html')
+
+def main_home(request):
+    return render(request, 'main/home.html')
+
+def main_wallet(request):
+    return render(request, 'main/wallet.html')
