@@ -73,12 +73,12 @@
     <!-- Custom styles for this template -->
     <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
     <link href="{% static 'css/main_footer.css'%}?after" rel="stylesheet">
-    <link href="{% static 'css/main.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}" rel="stylesheet">
   </head>
   <body class="d-flex h-100 text-bg-light">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mt-5 mb-5">
+  <header class="mt-5">
     <div class="container">
       <div class="row">
         <div class="col-9">
@@ -96,16 +96,20 @@
     </div>
   </header>
 
-  <main class="px-3">
-    <div align="center" class="container border border-4 rounded-5">
+  <main class="">
+    <div align="center" class="container border border-4 rounded-4 mb-5">
       <span class="row">
         <div class="col-auto me-auto">
-          <img src="{%static 'img/main_wallet/money.png'%}">
+          <img class="wallet_img" src="{%static 'img/main_wallet/money.png'%}">
         </div>
         <div class="col-auto">
           <p class="wallet_money">$1,349</p>
         </div>
       </span>
+    </div>
+    <div class="d-grid gap-3 mb-3">
+      <button type="button" class="btn btn-primary btn-lg rounded-5">Add Points</button>
+      <button type="button" class="btn btn-info btn-lg rounded-5">Get Money Back</button>
     </div>
   </main>
 

@@ -69,7 +69,7 @@
       }
     </style>
     <link href="{% static 'css/cover.css'%}" rel="stylesheet">
-    <link href="{% static 'css/question.css'%}" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}" rel="stylesheet">
   </head>
   <body class="d-flex h-100 text-center text-bg-light">
     
@@ -77,14 +77,12 @@
   <header class="mb-auto">
   </header>
 
-  <main class="px-3">
+  <main class="">
     <img width="63%" src="{%static 'img/q2.png'%}">
     <h3 class="mt-3 mb-5">Q2. What kind of style<br>do you prefer?</h3>
-    <div class="qrect">
-        <img class="mb-3" width="100%" src="{%static 'img/qrect1.png'%}">
-        <p class="text1">Resting and Healing.</p>
-        <img class="mb-4" width="100%" src="{%static 'img/qrect2.png'%}">
-        <p class="text2">Adventures and Activities</p>
+    <div class="d-grid gap-3 mb-3">
+      <button type="button" class="btn btn-primary btn-lg rounded-5">Resting and Healing.</button>
+      <button type="button" class="btn btn-info btn-lg rounded-5">Adventures and Activities</button>
     </div>
     <a href="{%url 'reward_done'%}">
         <img width="20%" src="{%static 'img/reward_next.png'%}">

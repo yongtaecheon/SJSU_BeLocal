@@ -73,24 +73,101 @@
     <!-- Custom styles for this template -->
     <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
     <link href="{% static 'css/main_footer.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-bg-light">
+  <body class="d-flex h-100 text-bg-light">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
+  <header class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <div class="row">
+            <p class="desc_app">Your history</p>
+          </div>
+          <div class="row">
+            <p class="appname">Chats</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <main class="px-3">
-    <img class="mt-5" width="80%" src="{%static 'img/reward_crown.png'%}">
-    <img class="mt-5" width="80%" src="{%static 'img/reward_crown.png'%}">
-    <img class="mt-5" width="80%" src="{%static 'img/reward_crown.png'%}">
-    <h1 class="mt-5 mb-3">Get $5 Reward by <br>Doing Survey</h1>
-    <p class="text-secondary mb-4">It’s for your<br>recommend matching system!!</p>
-    <a href={%url 'main_wallet'%}>
-      <img class="mb-2" width="20%" src="{%static 'img/reward_next.png'%}">
-    </a>
-    <div>
-      <a href="" class="text-secondary mb-4">Or Skip</a>
+  <main class="">
+    <div align="center" class="container border border-4 rounded-4 mb-2">
+      <span class="row">
+        <div class="col-1">
+          <img class="chat_img" src="{%static 'img/main_chat/guide1.png'%}">
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <p class="chat_name">Miyoung</p>
+          </div>
+          <div class="row">
+            <p class="chat_talk">I'm glad you liked it :)</p>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div align="center" class="container border border-4 rounded-4 mb-2">
+      <span class="row">
+        <div class="col-2">
+          <img class="chat_img" src="{%static 'img/main_chat/guide2.png'%}">
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <p class="chat_name">Na Yeon Lee</p>
+          </div>
+          <div class="row">
+            <p class="chat_talk">Sure. What days do you want??</p>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div align="center" class="container border border-4 rounded-4 mb-2">
+      <span class="row">
+        <div class="col-2">
+          <img class="chat_img" src="{%static 'img/main_chat/guide3.png'%}">
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <p class="chat_name">Ji Soo</p>
+          </div>
+          <div class="row">
+            <p class="chat_talk">Okay. I'll focus on those places.</p>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div align="center" class="container border border-4 rounded-4 mb-2">
+      <span class="row">
+        <div class="col-2">
+          <img class="chat_img" src="{%static 'img/main_chat/guide4.png'%}">
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <p class="chat_name">Jun Yeop Park</p>
+          </div>
+          <div class="row">
+            <p class="chat_talk">we can meet in front of U Sqare!</p>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div align="center" class="container border border-4 rounded-4" style="margin-bottom: 100px;">
+      <span class="row">
+        <div class="col-2">
+          <img class="chat_img" src="{%static 'img/main_chat/guide5.png'%}">
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <p class="chat_name">Dave</p>
+          </div>
+          <div class="row">
+            <p class="chat_talk">I had a great time, too!</p>
+          </div>
+        </div>
+      </span>
     </div>
   </main>
 

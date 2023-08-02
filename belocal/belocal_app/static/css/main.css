@@ -11,8 +11,8 @@
 
 
 .appname {
-    position:absolute;
-    top:11%;
+    position:relative;
+    bottom:20px;
     font-size:30px;
     font-weight: 600;
 }
@@ -85,6 +85,15 @@ div.scrollmenu img:hover {
     white-space:nowrap; 
     color:rgb(237, 183, 8);
 }
+.scrollitem .text5{
+    position:absolute;
+    top: 80%;
+    left: 32%;
+    font-size:25px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+}
 
 .scrollitem .text6{
     position:absolute;
@@ -96,19 +105,63 @@ div.scrollmenu img:hover {
     color:aliceblue;
 }
 
-.scrollitem .text5{
-    position:absolute;
-    top: 80%;
-    left: 32%;
-    font-size:25px;
-    transform: translate(-50%, -50%);
-    white-space:nowrap; 
-    color:aliceblue;
+.wallet_img{
+    position:relative;
+    top:12px;
+    left:10px;
 }
 
 .wallet_money{
+    position: relative;
+    top:8px;
+    right:10px;
     white-space:nowrap;
     color:#a9a9a9;
-    font-size:40px;
+    font-size:30px;
 }
 
+.btn-primary {
+    --bs-btn-color:rgb(68, 98, 127);
+    --bs-btn-bg:#81cdd4;
+    --bs-btn-border-color:#81cdd4;
+    --bs-btn-hover-color:rgb(55, 82, 107);
+    --bs-btn-hover-bg: #509198;
+    --bs-btn-hover-border-color: #509198;
+    --bs-btn-focus-shadow-rgb: #509198;
+    --bs-btn-active-color: rgb(13, 41, 59);
+    --bs-btn-active-bg: #509198;
+    --bs-btn-active-border-color:#509198;
+}
+
+.btn-info {
+    --bs-btn-color:rgb(68, 98, 127);
+    --bs-btn-bg:#81cdd47c;
+    --bs-btn-border-color:#81cdd400;
+    --bs-btn-hover-color:rgb(55, 82, 107);
+    --bs-btn-hover-bg: #509198;
+    --bs-btn-hover-border-color: #509198;
+    --bs-btn-focus-shadow-rgb: #509198;
+    --bs-btn-active-color: rgb(13, 41, 59);
+    --bs-btn-active-bg: #509198;
+    --bs-btn-active-border-color:#509198;
+}
+
+.chat_name {
+    position:relative;
+    top:10px;
+    font-size:30px;
+    font-weight: 600;
+}
+
+.chat_talk {
+    position:relative;
+    left:15px;
+    color:#818181;
+    white-space:nowrap; 
+}
+
+.chat_img{
+    position:relative;
+    top:23px;
+    left:10px;
+}
