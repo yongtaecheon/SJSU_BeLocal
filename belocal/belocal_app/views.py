@@ -4,6 +4,14 @@ import os
 #http로 실행했을 때 오류 방지
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
+
+# API 키
+API_KEY1 = 'AIzaSyCcis4wzheGUE8j9hRQ9xp43w7LREedD6M'
+API_KEY2 = 'AIzaSyCybUkLvjkdaWFgdc7GtVdnn-vgal0g0mg'
+API_KEY3 = 'AIzaSyD1mS8iqeHOniuebnom3cFT_yVG1VI1odA'
+API_KEY4 = 'AIzaSyA2-DRryTN0JYnI3P-letj_bl-sj9wpVKw'
+API_KEY5 = 'AIzaSyB5nnPCXwDu3BWpCQxcrpa8mdJYqBZANjQ'
+
 # Create your views here.
 def cover(request):
     return render(request, 'cover.html')

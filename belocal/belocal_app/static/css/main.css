@@ -23,7 +23,7 @@
     font-weight: 600;
 }
 
-input::-webkit-input-placeholder{
+.search{
     background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png) ;
     background-size: contain;
     background-position:  1px center;
@@ -126,6 +126,7 @@ div.scrollmenu img:hover {
     font-size:30px;
 }
 
+.btn-check,
 .btn-primary {
     --bs-btn-color:rgb(68, 98, 127);
     --bs-btn-bg:#81cdd4;

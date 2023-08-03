@@ -94,8 +94,12 @@
   </header>
 
   <main class="">
-    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-      <div align="center" class="container border border-3 rounded-5 mb-3">
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3 position-relative">
+        <span class="position-absolute top-30 start-100 translate-middle badge rounded-pill bg-danger">
+          2
+          <span class="visually-hidden">unread messages</span>
+        </span>
         <span class="row">
           <div class="col-3">
             <img class="chat_img" src="{%static 'img/main_chat/guide1.png'%}">
@@ -111,15 +115,19 @@
         </span>
       </div>
     </a>
-    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-      <div align="center" class="container border border-3 rounded-5 mb-3">
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas2" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3 position-relative">
+        <span class="position-absolute top-30 start-100 translate-middle badge rounded-pill bg-danger">
+          3
+          <span class="visually-hidden">unread messages</span>
+        </span>
         <span class="row">
           <div class="col-3">
             <img class="chat_img" src="{%static 'img/main_chat/guide2.png'%}">
           </div>
           <div class="col-7" align="left">
             <div class="row">
-              <p class="chat_name">Na Yeon Lee</p>
+              <p class="chat_name">Nayeon Lee</p>
             </div>
             <div class="row">
               <p class="chat_talk">Sure. What days do you wan</p>
@@ -128,7 +136,7 @@
         </span>
       </div>
     </a>
-    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">  
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas3" aria-controls="offcanvasRight">  
       <div align="center" class="container border border-3 rounded-5 mb-3">
         <span class="row">
           <div class="col-3">
@@ -145,8 +153,12 @@
         </span>
       </div>
     </a>
-    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-      <div align="center" class="container border border-3 rounded-5 mb-3">
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas4" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3 position-relative">
+        <span class="position-absolute top-30 start-100 translate-middle badge rounded-pill bg-danger">
+          1
+          <span class="visually-hidden">unread messages</span>
+        </span>
         <span class="row">
           <div class="col-3">
             <img class="chat_img" src="{%static 'img/main_chat/guide4.png'%}">
@@ -162,7 +174,7 @@
         </span>
       </div>
     </a>
-    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas5" aria-controls="offcanvasRight">
       <div align="center" class="container border border-3 rounded-5" style="margin-bottom: 100px;">
         <span class="row">
           <div class="col-3">
@@ -213,7 +225,8 @@
   </footer>
 </div>
 
-<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<!-- Miyoung -->
+<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvas1" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
     <p class="appname offcanvas-title mt-5" id="offcanvasRightLabel">Chat with Miyoung</p>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -246,12 +259,168 @@
   </div>
   <div align="center">
     <form class="offcanvas-form col-11 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-      <input type="search" class="form-control rounded-5" placeholder="text something..." aria-label="Search">
+      <input type="search" class="form-control shadow rounded-5" placeholder="text something..." aria-label="Search">
     </form>
   </div>
 </div>
+
+<!-- Nayeon -->
+<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvas2" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p class="appname offcanvas-title mt-5" id="offcanvasRightLabel">Chat with Nayeon Lee</p>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-2 me-4">
+          <img src="{%static 'img/main_chat/guide2.png'%}">
+        </div>
+        <div class="col-8 border border-4 rounded-5">
+          <div class="row">
+            <p class="chat_talk_full">Hello there, thank you for <br>sending the request form of <br>the travel in Seoul! I will pick <br>you at the airport!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 border border-4 rounded-5 me-4">
+          <div class="row">
+            <p class="chat_talk_full">Okay, see you there! :)</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div align="center">
+    <form class="offcanvas-form col-11 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+      <input type="search" class="form-control shadow rounded-5" placeholder="text something..." aria-label="Search">
+    </form>
+  </div>
 </div>
+
+<!-- Ji soo -->
+<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvas3" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p class="appname offcanvas-title mt-5" id="offcanvasRightLabel">Chat with Ji Soo</p>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-2 me-4">
+          <img src="{%static 'img/main_chat/guide3.png'%}">
+        </div>
+        <div class="col-8 border border-4 rounded-5">
+          <div class="row">
+            <p class="chat_talk_full">Hello there, thank you for <br>sending the request form of <br>the travel in Seoul! I will pick <br>you at the airport!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 border border-4 rounded-5 me-4">
+          <div class="row">
+            <p class="chat_talk_full">Okay, see you there! :)</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div align="center">
+    <form class="offcanvas-form col-11 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+      <input type="search" class="form-control shadow rounded-5" placeholder="text something..." aria-label="Search">
+    </form>
+  </div>
 </div>
+
+<!-- jun park -->
+<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvas4" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p class="appname offcanvas-title mt-5" id="offcanvasRightLabel">Chat with Jun Park</p>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-2 me-4">
+          <img src="{%static 'img/main_chat/guide4.png'%}">
+        </div>
+        <div class="col-8 border border-4 rounded-5">
+          <div class="row">
+            <p class="chat_talk_full">Hello there, thank you for <br>sending the request form of <br>the travel in Seoul! I will pick <br>you at the airport!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 border border-4 rounded-5 me-4">
+          <div class="row">
+            <p class="chat_talk_full">Okay, see you there! :)</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div align="center">
+    <form class="offcanvas-form col-11 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+      <input type="search" class="form-control shadow rounded-5" placeholder="text something..." aria-label="Search">
+    </form>
+  </div>
+</div>
+
+<!-- Dave -->
+<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvas5" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p class="appname offcanvas-title mt-5" id="offcanvasRightLabel">Chat with Dave</p>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-2 me-4">
+          <img src="{%static 'img/main_chat/guide5.png'%}">
+        </div>
+        <div class="col-8 border border-4 rounded-5">
+          <div class="row">
+            <p class="chat_talk_full">Hello there, thank you for <br>sending the request form of <br>the travel in Seoul! I will pick <br>you at the airport!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 border border-4 rounded-5 me-4">
+          <div class="row">
+            <p class="chat_talk_full">Okay, see you there! :)</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div align="center">
+    <form class="offcanvas-form col-11 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+      <input type="search" class="form-control shadow rounded-5" placeholder="text something..." aria-label="Search">
+    </form>
+  </div>
+</div>
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
