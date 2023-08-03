@@ -1,14 +1,7 @@
 html,
 body {
   height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #ffffff;
+  
 }
 
 main{
@@ -16,7 +9,16 @@ main{
   width: 100%;
   padding: 0px;
 }
-
+body {
+  /* display: flex; */
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+div{
+  line-height: 50px;
+}
 
 .form-control{
   /* Rectangle 545 */
@@ -42,27 +44,6 @@ border: 1px solid #E9E9E9;
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-}
-
-
-.direction {
-/* E-mail address */
-
-  /* position: absolute; */
-  width: 107px;
-  height: 21px;
-  left: 24px;
-  top: 202px;
-  text-align: left;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  /* identical to box height */
-
-  color: #114a426d;
 }
 
 .title1

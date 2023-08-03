@@ -13,3 +13,12 @@ def init(request):
 
 def login_personal(request):
     return render(request, 'login_personal.html')
+
+def signin(request):
+    return render(request,'signin.html')
+
+def signup(request):
+    return render(request,'signup.html')
+
+def profile(request):
+    return render(request,'profile.html')
