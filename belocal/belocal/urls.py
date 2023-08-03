@@ -25,5 +25,6 @@ urlpatterns = [
     path('login_personal/',belocal_app.views.login_personal),
     path('signin/',belocal_app.views.signin),
     path('signup/',belocal_app.views.signup),
-    path('profile/',belocal_app.views.profile)
+    path('profile/',belocal_app.views.profile),
+    path('register_course/',belocal_app.views.register_course)
 ]

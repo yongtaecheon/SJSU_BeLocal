@@ -22,3 +22,6 @@ def signup(request):
 
 def profile(request):
     return render(request,'profile.html')
+
+def register_course(request):
+    return render(request,'register_course.html')
