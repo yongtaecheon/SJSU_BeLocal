@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -67,24 +68,80 @@
         -webkit-overflow-scrolling: touch;
       }
     </style>
-    <link href="{% static 'css/cover.css'%}" rel="stylesheet">
+
+    
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main_footer.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-bg-light" style="font-weight: 600;">
+  <body class="d-flex h-100 text-bg-light">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
+  <header class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <div class="row">
+            <p class="desc_app">Add our Be Local points to use</p>
+          </div>
+          <div class="row">
+            <p class="appname">Your Wallet</p>
+          </div>
+        </div>
+        <div class="col-1">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="">
-    <a href={%url 'reward_ask'%}>
-      <img width="100%" src="{%static 'img/main_logo.png'%}">
-    </a>
-    <p class="mb-3" style="font-size:72px;">Be Local</p>
-    <p style="font-weight: 400;" class="text-secondary">Hello, Korea :)</p>
+    <div align="center" class="container border border-4 rounded-4 mb-5">
+      <span class="row">
+        <div class="col-auto me-auto">
+          <img class="wallet_img" src="{%static 'img/main_wallet/money.png'%}">
+        </div>
+        <div class="col-auto">
+          <p class="wallet_money">$1,349</p>
+        </div>
+      </span>
+    </div>
+    <div class="d-grid gap-3 mb-3">
+      <button type="button" class="btn btn-primary btn-lg rounded-5">Add Points</button>
+      <button type="button" class="btn btn-info btn-lg rounded-5">Get Money Back</button>
+    </div>
   </main>
 
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+  <footer class="footer py-xl-5 rounded-top-4">
+    <div class="container text-center">
+      <div class="row align-items-end">
+        <div class="col">
+            <a href="{%url 'main_home'%}">
+              <img class="mt-3 mb-1" src="{%static 'img/main_footer/home_off.png'%}">
+            </a>
+            <div class="footer-text">Home</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'main_wallet'%}">
+              <img class="mt-3 mb-2" src="{%static 'img/main_footer/wallet_on.png'%}">
+            </a>
+            <div class="footer-text-activated">Wallet</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'main_map'%}">
+              <img class="mt-3 mb-1" src="{%static 'img/main_footer/map_off.png'%}">
+            </a>
+            <div class="footer-text">Map</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'main_chat'%}">
+              <img class="mt-3 mb-0" src="{%static 'img/main_footer/chat_off.png'%}">
+            </a>
+            <div class="footer-text">Chat</div>
+          </div>
+      </div>
+    </div>
   </footer>
 </div>
 

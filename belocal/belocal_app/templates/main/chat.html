@@ -1,0 +1,259 @@
+{% load static %}
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Cover Template · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main_footer.css'%}" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}?after" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-bg-light">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <div class="row">
+            <p class="desc_app">Your history</p>
+          </div>
+          <div class="row">
+            <p class="appname">Chats</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="">
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide1.png'%}">
+          </div>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Miyoung</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">I'm glad you liked it :)</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide2.png'%}">
+          </div>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Na Yeon Lee</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">Sure. What days do you wan</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">  
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide3.png'%}">
+          </div>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Ji Soo</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">Okay. I'll focus on those plac</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide4.png'%}">
+          </div>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Jun Park</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">we can meet in front of U Sq</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5" style="margin-bottom: 100px;">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide5.png'%}">
+          </div>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Dave</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">I had a great time, too!</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </a>
+  </main>
+
+  <footer class="footer py-xl-5 rounded-top-4">
+    <div class="container text-center">
+      <div class="row align-items-end">
+        <div class="col">
+            <a href="{%url 'main_home'%}">
+              <img class="mt-3 mb-1" src="{%static 'img/main_footer/home_off.png'%}">
+            </a>
+            <div class="footer-text">Home</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'main_wallet'%}">
+              <img class="mt-3 mb-2" src="{%static 'img/main_footer/wallet_off.png'%}">
+            </a>
+            <div class="footer-text">Wallet</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'main_map'%}">
+              <img class="mt-3 mb-1" src="{%static 'img/main_footer/map_off.png'%}">
+            </a>
+            <div class="footer-text">Map</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'main_chat'%}">
+              <img class="mt-3 mb-0" src="{%static 'img/main_footer/chat_on.png'%}">
+            </a>
+            <div class="footer-text-activated">Chat</div>
+          </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p class="appname offcanvas-title mt-5" id="offcanvasRightLabel">Chat with Miyoung</p>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-2 me-4">
+          <img src="{%static 'img/main_chat/guide1.png'%}">
+        </div>
+        <div class="col-8 border border-4 rounded-5">
+          <div class="row">
+            <p class="chat_talk_full">Hello there, thank you for <br>sending the request form of <br>the travel in Seoul! I will pick <br>you at the airport!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 border border-4 rounded-5 me-4">
+          <div class="row">
+            <p class="chat_talk_full">Okay, see you there! :)</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div align="center">
+    <form class="offcanvas-form col-11 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+      <input type="search" class="form-control rounded-5" placeholder="text something..." aria-label="Search">
+    </form>
+  </div>
+</div>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

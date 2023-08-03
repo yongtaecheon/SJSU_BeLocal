@@ -8,5 +8,29 @@ os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 def cover(request):
     return render(request, 'cover.html')
 
-def init(request):
-    return render(request, 'init.html')
+def reward_ask(request):
+    return render(request, 'reward_quest/reward_ask.html')
+
+def question1(request):
+    return render(request, 'reward_quest/question1.html')
+
+def question2(request):
+    return render(request, 'reward_quest/question2.html')
+
+def reward_done(request):
+    return render(request, 'reward_quest/reward_done.html')
+
+def main_home(request):
+    return render(request, 'main/home.html')
+
+def main_wallet(request):
+    return render(request, 'main/wallet.html')
+
+def main_map(request):
+    return render(request, 'main/map.html')
+
+def main_chat(request):
+    return render(request, 'main/chat.html')
+
+def guide_home(request):
+    return render(request, 'guide/home.html')
