@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+
+.form-control{
+  /* Rectangle 545 */
+
+box-sizing: border-box;
+border-radius: 36px;
+border: 1px solid #E9E9E9;
+
+}
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.direction {
+/* E-mail address */
+
+  /* position: absolute; */
+  width: 107px;
+  height: 21px;
+  left: 24px;
+  top: 202px;
+  text-align: left;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #114a426d;
+}
+
+.title1
+{
+  /* Sign in */
+width: 0%;
+height: 0%;
+left: 2%;
+top:12%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+color: #1F1F1F;
+
+
+}

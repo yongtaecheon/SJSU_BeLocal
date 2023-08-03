@@ -16,6 +16,21 @@ API_KEY5 = 'AIzaSyB5nnPCXwDu3BWpCQxcrpa8mdJYqBZANjQ'
 def cover(request):
     return render(request, 'cover.html')
 
+def login_personal(request):
+    return render(request, 'login_personal.html')
+
+def signin(request):
+    return render(request,'signin.html')
+
+def signup(request):
+    return render(request,'signup.html')
+
+def profile(request):
+    return render(request,'profile.html')
+
+def register_course(request):
+    return render(request,'register_course.html')
+
 def reward_ask(request):
     return render(request, 'reward_quest/reward_ask.html')
 
