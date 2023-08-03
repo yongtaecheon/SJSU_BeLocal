@@ -68,7 +68,8 @@
         -webkit-overflow-scrolling: touch;
       }
     </style>
-
+    <script defer src="{%static 'js/map.js' %}"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcis4wzheGUE8j9hRQ9xp43w7LREedD6M&callback=initMap"></script>
     
     <!-- Custom styles for this template -->
     <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
@@ -78,21 +79,11 @@
   <body class="d-flex h-100 text-center text-bg-light">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
+  <header class="">
   </header>
 
-  <main class="px-3">
-    <img class="mt-5" width="80%" src="{%static 'img/reward_crown.png'%}">
-    <img class="mt-5" width="80%" src="{%static 'img/reward_crown.png'%}">
-    <img class="mt-5" width="80%" src="{%static 'img/reward_crown.png'%}">
-    <h1 class="mt-5 mb-3">Get $5 Reward by <br>Doing Survey</h1>
-    <p class="text-secondary mb-4">It’s for your<br>recommend matching system!!</p>
-    <a href={%url 'main_wallet'%}>
-      <img class="mb-2" width="20%" src="{%static 'img/reward_next.png'%}">
-    </a>
-    <div>
-      <a href="" class="text-secondary mb-4">Or Skip</a>
-    </div>
+  <main class="">
+    <div id="map" style="height: 630px;"></div>
   </main>
 
   <footer class="footer py-xl-5 rounded-top-4">
