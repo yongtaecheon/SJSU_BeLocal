@@ -1,0 +1,16 @@
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    height: 80px;
+    background-color: rgb(229, 238, 238);
+  }
+  
+  .footer-text{
+    color:#bcbcbc;
+  }
+  
+  .footer-text-activated{
+    color:#81cdd4;
+  }

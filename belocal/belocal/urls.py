@@ -20,11 +20,19 @@ import belocal_app.views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', belocal_app.views.cover),
-    path('init/', belocal_app.views.init),
+    path('', belocal_app.views.cover, name='main'),
     path('login_personal/',belocal_app.views.login_personal),
     path('signin/',belocal_app.views.signin),
     path('signup/',belocal_app.views.signup),
     path('profile/',belocal_app.views.profile),
-    path('register_course/',belocal_app.views.register_course)
+    path('register_course/',belocal_app.views.register_course),
+    path('reward_ask/', belocal_app.views.reward_ask, name='reward_ask'),
+    path('question1/', belocal_app.views.question1, name='question1'),
+    path('question2/', belocal_app.views.question2, name='question2'),
+    path('reward_done/', belocal_app.views.reward_done, name='reward_done'),
+    path('main/home/', belocal_app.views.main_home, name="main_home"),
+    path('guide/home/',belocal_app.views.guide_home, name="guide_home"),
+    path('main/wallet/', belocal_app.views.main_wallet, name="main_wallet"),
+    path('main/map/', belocal_app.views.main_map, name="main_map"),
+    path('main/chat/', belocal_app.views.main_chat, name="main_chat"),
 ]

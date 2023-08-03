@@ -1,0 +1,181 @@
+.desc_app {
+    color:#818181;
+    white-space:nowrap; 
+}
+
+.desc_cat{
+    white-space:nowrap;
+    font-weight: 600;
+    font-size:20px;
+}
+
+
+.appname {
+    position:relative;
+    bottom:20px;
+    font-size:30px;
+    font-weight: 600;
+}
+
+.appname-modal {
+    position:relative;
+    font-size:40px;
+    font-weight: 600;
+}
+
+.search{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png) ;
+    background-size: contain;
+    background-position:  1px center;
+    background-repeat: no-repeat;
+    text-indent: 0;
+    text-align:center;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+  
+div.scrollmenu img {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+  
+div.scrollmenu img:hover {
+    background-color: #e6e4e4;
+}
+
+.scrollitem{
+    position:relative;
+}
+.scrollitem .text1{
+    position:absolute;
+    top: 120%;
+    left: 10%;
+    font-size:30px;
+    color:aliceblue;
+}
+
+.scrollitem .text2{
+    position:absolute;
+    top: 250%;
+    left: 50%;
+    font-size:20px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+    text-shadow: -1px 0px rgb(138, 134, 134), 0px 1px rgb(138, 134, 134), 1px 0px rgb(138, 134, 134), 0px -1px rgb(138, 134, 134);
+}
+
+.scrollitem .text3{
+    position:absolute;
+    top: 350%;
+    left: 50%;
+    font-size:15px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+    text-shadow: -1px 0px rgb(138, 134, 134), 0px 1px rgb(138, 134, 134), 1px 0px rgb(138, 134, 134), 0px -1px rgb(138, 134, 134);
+}
+.scrollitem .text4{
+    position:absolute;
+    top: 180%;
+    left: 70%;
+    font-size:15px;
+    font-weight: 600;
+    white-space:nowrap; 
+    color:rgb(237, 183, 8);
+}
+.scrollitem .text5{
+    position:absolute;
+    top: 80%;
+    left: 32%;
+    font-size:25px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+}
+
+.scrollitem .text6{
+    position:absolute;
+    top: 90%;
+    left: 45%;
+    font-size:15px;
+    transform: translate(-50%, -50%);
+    white-space:nowrap; 
+    color:aliceblue;
+}
+
+.wallet_img{
+    position:relative;
+    top:12px;
+    left:10px;
+}
+
+.wallet_money{
+    position: relative;
+    top:8px;
+    right:10px;
+    white-space:nowrap;
+    color:#a9a9a9;
+    font-size:30px;
+}
+
+.btn-check,
+.btn-primary {
+    --bs-btn-color:rgb(68, 98, 127);
+    --bs-btn-bg:#81cdd4;
+    --bs-btn-border-color:#81cdd4;
+    --bs-btn-hover-color:rgb(55, 82, 107);
+    --bs-btn-hover-bg: #509198;
+    --bs-btn-hover-border-color: #509198;
+    --bs-btn-focus-shadow-rgb: #509198;
+    --bs-btn-active-color: rgb(13, 41, 59);
+    --bs-btn-active-bg: #509198;
+    --bs-btn-active-border-color:#509198;
+}
+
+.btn-info {
+    --bs-btn-color:rgb(68, 98, 127);
+    --bs-btn-bg:#81cdd47c;
+    --bs-btn-border-color:#81cdd400;
+    --bs-btn-hover-color:rgb(55, 82, 107);
+    --bs-btn-hover-bg: #509198;
+    --bs-btn-hover-border-color: #509198;
+    --bs-btn-focus-shadow-rgb: #509198;
+    --bs-btn-active-color: rgb(13, 41, 59);
+    --bs-btn-active-bg: #509198;
+    --bs-btn-active-border-color:#509198;
+}
+
+.chat_name {
+    position:relative;
+    top:10px;
+    font-size:25px;
+    font-weight: 600;
+    color:black;
+}
+
+.chat_talk {
+    position:relative;
+    color:#818181;
+    white-space:nowrap; 
+}
+.chat_talk_full {
+    position:relative;
+    top:8px;
+    right:2px;
+    color:#818181;
+    white-space:nowrap; 
+}
+
+.chat_img{
+    position:relative;
+    top:23px;
+    left:10px;
+}

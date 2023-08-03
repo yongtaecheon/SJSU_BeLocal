@@ -1,0 +1,320 @@
+{% load static %}
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Cover Template · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main_footer.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-bg-light">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <div class="row">
+            <p class="desc_app">Find your next local trip</p>
+          </div>
+          <div class="row">
+            <p class="appname">Be Local</p>
+          </div>
+        </div>
+        <div class="col-1">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="">
+    <form class="search col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+      <input type="search" class="form-control rounded-5" placeholder="Search..." aria-label="Search">
+    </form>
+    
+    <div class="mt-5" id="popular_places">
+      <p class="desc_cat">Popular Places</p>
+      <div class="scrollmenu">
+        <span class="scrollitem">
+          <p class="text1">Busan</p>
+          <p class="text4">4.4
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+          </p>
+          <img src="{%static 'img/main_home/pop1.png'%}" data-bs-toggle="modal" data-bs-target="#modal_pop1">
+        </span>
+        <span class="scrollitem">
+          <p class="text1">Seoul</p>
+          <p class="text4">4.8
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+          </p>
+          <img src="{%static 'img/main_home/pop2.png'%}">
+        </span>
+      </div>
+    </div>
+    <div class="mt-5" id="meet_locals" style="margin-bottom: 100px;">
+      <p class="desc_cat">Meet Locals</p>
+      <div class="scrollmenu">
+        <span class="scrollitem">
+          <p class="text2">Minji Kim</p>
+          <p class="text3">16 locations</p>
+          <img src="{%static 'img/main_home/local1.png'%}">
+        </span>
+        <span class="scrollitem">
+          <p class="text2">Yujin Kim</p>
+          <p class="text3">5 locations</p>
+          <img src="{%static 'img/main_home/local2.png'%}">
+        </span>
+        <span class="scrollitem">
+          <p class="text2">Jeong Kwon</p>
+          <p class="text3">320 locations</p>
+          <img src="{%static 'img/main_home/local3.png'%}">
+        </span>
+        <span class="scrollitem">
+          <p class="text2">Jeremy</p>
+          <p class="text3">28 locations</p>
+          <img src="{%static 'img/main_home/local4.png'%}">
+        </span>
+        <span class="scrollitem">
+          <p class="text2">Harley</p>
+          <p class="text3">13 locations</p>
+          <img src="{%static 'img/main_home/local5.png'%}">
+        </span>
+        <span class="scrollitem">
+          <p class="text2">Emerson</p>
+          <p class="text3">40 locations</p>
+          <img src="{%static 'img/main_home/local6.png'%}">
+        </span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer py-xl-5 rounded-top-4">
+    <div class="container text-center">
+      <div class="row align-items-end">
+        <div class="col">
+          <a href="{%url 'main_home'%}">
+            <img class="mt-3 mb-1" src="{%static 'img/main_footer/home_on.png'%}">
+          </a>
+          <div class="footer-text-activated">Home</div>
+        </div>
+        <div class="col">
+          <a href="{%url 'main_wallet'%}">
+            <img class="mt-3 mb-2" src="{%static 'img/main_footer/wallet_off.png'%}">
+          </a>
+          <div class="footer-text">Wallet</div>
+        </div>
+        <div class="col">
+          <a href="{%url 'main_map'%}">
+            <img class="mt-3 mb-1" src="{%static 'img/main_footer/map_off.png'%}">
+          </a>
+          <div class="footer-text">Map</div>
+        </div>
+        <div class="col">
+          <a href="{%url 'main_chat'%}">
+            <img class="mt-3 mb-0" src="{%static 'img/main_footer/chat_off.png'%}">
+          </a>
+          <div class="footer-text">Chat</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+
+<!-- traveler place info-->
+<div class="modal fade" id="modal_pop1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="appname-modal modal-title fs-5" id="exampleModalLabel">Gwangju</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="mb-3" width="100%" src="{%static 'img/modal_pic1.png'%}">
+        <p>Gwangju is a city where you can enjoy
+          delicious food, traditional culture, and natural scenery.
+          Also, Gwangju is a historical place related to Korea's pro-democracy movement.</p>
+      </div>
+      <div class="d-grid col-11 mx-auto mb-3">
+          <button type="button" class="btn btn-primary btn-lg rounded-5" data-bs-toggle="modal" data-bs-target="#modal_pop2">View Locals</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- local guides list-->
+<div class="modal fade" id="modal_pop2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="appname-modal modal-title fs-5" id="exampleModalLabel">Your Locals</h1>
+        <button type="button" class="btn-close" data-bs-toggle="modal" data-bs-target="#modal_pop1"></button>
+      </div>
+      <div class="modal-body">
+        <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <div align="center" class="container border border-3 rounded-5 mb-3">
+            <span class="row">
+              <div class="col-3">
+                <img class="chat_img" src="{%static 'img/main_chat/guide1.png'%}">
+              </div>
+              <div class="col-7" align="left">
+                <div class="row">
+                  <p class="chat_name">Miyoung</p>
+                </div>
+                <div class="row">
+                  <p class="chat_talk">Joyful Traveling!</p>
+                </div>
+              </div>
+            </span>
+          </div>
+        </a>
+        <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <div align="center" class="container border border-3 rounded-5 mb-3">
+            <span class="row">
+              <div class="col-3">
+                <img class="chat_img" src="{%static 'img/main_chat/guide2.png'%}">
+              </div>
+              <div class="col-7" align="left">
+                <div class="row">
+                  <p class="chat_name">Na Yeon Lee</p>
+                </div>
+                <div class="row">
+                  <p class="chat_talk">Wanna Rest? Join Me!</p>
+                </div>
+              </div>
+            </span>
+          </div>
+        </a>
+        <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">  
+          <div align="center" class="container border border-3 rounded-5 mb-3">
+            <span class="row">
+              <div class="col-3">
+                <img class="chat_img" src="{%static 'img/main_chat/guide3.png'%}">
+              </div>
+              <div class="col-7" align="left">
+                <div class="row">
+                  <p class="chat_name">Ji Soo</p>
+                </div>
+                <div class="row">
+                  <p class="chat_talk">Korea Experts!!</p>
+                </div>
+              </div>
+            </span>
+          </div>
+        </a>
+        <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <div align="center" class="container border border-3 rounded-5 mb-3">
+            <span class="row">
+              <div class="col-3">
+                <img class="chat_img" src="{%static 'img/main_chat/guide4.png'%}">
+              </div>
+              <div class="col-7" align="left">
+                <div class="row">
+                  <p class="chat_name">Jun Park</p>
+                </div>
+                <div class="row">
+                  <p class="chat_talk">Show the Best Place!!</p>
+                </div>
+              </div>
+            </span>
+          </div>
+        </a>
+        <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <div align="center" class="container border border-3 rounded-5" style="margin-bottom: 0px;">
+            <span class="row">
+              <div class="col-3">
+                <img class="chat_img" src="{%static 'img/main_chat/guide5.png'%}">
+              </div>
+              <div class="col-7" align="left">
+                <div class="row">
+                  <p class="chat_name">Dave</p>
+                </div>
+                <div class="row">
+                  <p class="chat_talk">Hidden Local Place!</p>
+                </div>
+              </div>
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
