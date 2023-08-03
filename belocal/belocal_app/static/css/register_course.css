@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    padding: 0%;
+    margin: 0%;
+}
+
+.dest_place{
+    padding: 0%;
+    margin: 0%;
+    /* 1913 Songjeong Station Market */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}
+
+.dest_info{
+    padding: 0%;
+    margin: 0%;
+    /* You can see local specialties and various products */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #B1B1B1;
+
+
+}
+
+.dest_img{
+    
+}
+
+.header_title
+{
+    /* Hidden Gwangju */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}

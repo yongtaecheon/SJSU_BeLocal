@@ -77,8 +77,8 @@
   </head>
   
 
-  <body class="d-100 h-100 text-bg-light">
-    <div class="cover-container d-100 w-100 h-100 p-3 mx-auto flex-column">
+  <body>
+    <div class="cover-container d-100 w-100 h-100 p-3 mx-auto flex-column" style="padding: 0%;">
         <header class="mt-5">
             <div class="row">
                 <div class="col-2">
@@ -86,7 +86,7 @@
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
             </svg></a>
             </div>
-            <div class="col-8" align="center">
+            <div class="col-8" text-align="center">
                 <p class="header_title">Hidden Gwangju</p>
             </div>
                 <div class="col-2"></div>
@@ -96,33 +96,86 @@
     
     
     <main class="mt-1 h-100" style="height: 100%; margin: 0%;">
-        <div class="container mt-0" style="padding: 3%; height:30%">
+        <div class="container mt-0" style="padding: 3%; height:15%;">
             <div class="row">
                 <div class="col g-2">
-                    <button class="btn btn-primary" type="submit">Button</button>
+                    <button class="btn btn-primary" type="submit"># Food Tour</button>
                 </div>
                 <div class="col g-2">
-                    <button class="btn btn-primary" type="submit">Button</button>
+                    <button class="btn btn-primary" type="submit"># Street Food</button>
                     
                 </div>
             </div>
             <div class="row">
                 <div class="col g-2">
-                    <button class="btn btn-primary" type="submit">Button</button>
+                    <button class="btn btn-primary" type="submit"># Trendy Place</button>
                 </div>
                 <div class="col g-2">
-                    <button class="btn btn-primary" type="submit">Button</button>
+                    <button class="btn btn-primary" type="submit"># Youthful Vibe</button>
                 </div>
 
             </div>
         </div>
-        <div class="mt-0" style="background-color: red; height:70%">
-            <div class="mt-2" style="padding:10%;">
-                <p>text2</p>
+        <div class="mt-0" style="background-color: rgb(160, 231, 160); height:85%">
+            <div class="container mt-2">
+                <div class="row">
+                    <div class="col-2">
+                        <img class=dest_img src="{% static '/img/register_course/destimg.png' %}">
+                    </div>
+                    <div class="col-10 mb-5" style="padding: 0%;">
+                        <div class="container" style="padding: 0%;">
+                            <div class="row" >
+                                <div class="container">
+                                    <div class="row" >
+                                        <p class="dest_place">1913 Songjeong Station Market</p>
+                                    </div>
+                                    <div class="row" >
+                                        <p class="dest_info">You can see local specialties 
+                                            and various products</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" >
+                                <div class="container" >
+                                    <div class="row">
+                                        <p class="dest_place">Yanglim-dong</p>
+                                    </div>
+                                    <div class="row" >
+                                        <p class="dest_info">There are many murals and artistic
+                                            installations in the building,</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" >
+                                <div class="container">
+                                    <div class="row">
+                                        <p class="dest_place">Dongmyeong-dong</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="dest_info">Dongmyeong-dong is an area
+                                            where important places related to
+                                            the Gwangju Democratization 
+                                           Movement are located.</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        
+                        </div>
+                    </div>
+
+                </div>
+            
+                
 
             </div>
-
         </div>
+        <div class="go_btn mt-5">
+            <a class="btn btn-primary" href="#" role="button">Go Chat</a>
+        </div>
+
+
+
 
     </main>
 </div>
