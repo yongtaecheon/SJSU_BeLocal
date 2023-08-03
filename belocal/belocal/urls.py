@@ -30,8 +30,11 @@ urlpatterns = [
     path('question2/', belocal_app.views.question2, name='question2'),
     path('reward_done/', belocal_app.views.reward_done, name='reward_done'),
     path('main/home/', belocal_app.views.main_home, name="main_home"),
-    path('guide/home/',belocal_app.views.guide_home, name="guide_home"),
     path('main/wallet/', belocal_app.views.main_wallet, name="main_wallet"),
     path('main/map/', belocal_app.views.main_map, name="main_map"),
     path('main/chat/', belocal_app.views.main_chat, name="main_chat"),
+    path('guide/home/',belocal_app.views.guide_home, name="guide_home"),
+    path('guide/wallet/', belocal_app.views.guide_wallet, name="guide_wallet"),
+    path('guide/map/', belocal_app.views.guide_map, name="guide_map"),
+    path('guide/chat/', belocal_app.views.guide_chat, name="guide_chat"),
 ]
