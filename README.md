@@ -20,10 +20,10 @@ Be Local utilizes matching based on shared interests and preferences, offering u
 from 2023 SJSU Silicon Valley Program
 
 
-개발 환경 설정하는법
+**개발 환경 설정하는법**
 1. pip3 install django
 2. cd belocal로 간다 (manage.py가 있는 곳)
 3. 서버 실행하는 법 : python manage.py runserver 싫행
-(자동으로 리액트처럼 새로고침이 되진 않지만 수동으로 하면 됨. 서버는 오류안나면 안꺼짐
+자동으로 리액트처럼 새로고침이 되진 않지만 수동으로 하면 됨. 서버는 오류안나면 안꺼짐
 
 requirements.txt 에서 확인하기(7/31 현재 1번만 하면 됨)
