@@ -16,14 +16,11 @@ API_KEY5 = 'AIzaSyB5nnPCXwDu3BWpCQxcrpa8mdJYqBZANjQ'
 def cover(request):
     return render(request, 'cover.html')
 
-def login_personal(request):
-    return render(request, 'login_personal.html')
-
 def signin(request):
-    return render(request,'signin.html')
+    return render(request,'login/signin.html')
 
 def signup(request):
-    return render(request,'signup.html')
+    return render(request,'login/signup.html')
 
 def profile(request):
     return render(request,'profile.html')
@@ -46,6 +43,12 @@ def reward_done(request):
 def main_home(request):
     return render(request, 'main/home.html')
 
+def home_to_profile(request):
+    if request.method =='POST':
+        guide_name = request.GET['guide_name']
+        print(guide_name)
+    return render(request, 'register_course.html')
+
 def main_wallet(request):
     return render(request, 'main/wallet.html')
 
@@ -57,3 +60,12 @@ def main_chat(request):
 
 def guide_home(request):
     return render(request, 'guide/home.html')
+
+def guide_wallet(request):
+    return render(request, 'guide/wallet.html')
+
+def guide_map(request):
+    return render(request, 'guide/map.html')
+
+def guide_chat(request):
+    return render(request, 'guide/chat.html')

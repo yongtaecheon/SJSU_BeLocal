@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -67,24 +68,53 @@
         -webkit-overflow-scrolling: touch;
       }
     </style>
-    <link href="{% static 'css/cover.css'%}" rel="stylesheet">
+    <script defer src="{%static 'js/map.js' %}"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcis4wzheGUE8j9hRQ9xp43w7LREedD6M&callback=initMap"></script>
+    
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main_footer.css'%}?after" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-bg-light" style="font-weight: 600;">
+  <body class="d-flex h-100 text-center text-bg-light">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
+  <header class="">
   </header>
 
   <main class="">
-    <a href={%url 'signin'%}>
-      <img width="100%" src="{%static 'img/main_logo.png'%}">
-    </a>
-    <p class="mb-3" style="font-size:72px;">Be Local</p>
-    <p style="font-weight: 400;" class="text-secondary">Hello, Korea :)</p>
+    <div id="map" style="height: 630px;"></div>
   </main>
 
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+  <footer class="footer py-xl-5 rounded-top-4">
+    <div class="container text-center">
+      <div class="row align-items-end">
+        <div class="col">
+            <a href="{%url 'guide_home'%}">
+              <img class="mt-3 mb-1" src="{%static 'img/main_footer/home_off.png'%}">
+            </a>
+            <div class="footer-text">Home</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'guide_wallet'%}">
+              <img class="mt-3 mb-2" src="{%static 'img/main_footer/wallet_off.png'%}">
+            </a>
+            <div class="footer-text">Wallet</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'guide_map'%}">
+              <img class="mt-3 mb-1" src="{%static 'img/main_footer/map_on.png'%}">
+            </a>
+            <div class="footer-text-activated">Map</div>
+          </div>
+          <div class="col">
+            <a href="{%url 'guide_chat'%}">
+              <img class="mt-3 mb-0" src="{%static 'img/main_footer/chat_off.png'%}">
+            </a>
+            <div class="footer-text">Chat</div>
+          </div>
+      </div>
+    </div>
   </footer>
 </div>
 
