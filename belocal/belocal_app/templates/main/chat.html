@@ -72,8 +72,8 @@
     
     <!-- Custom styles for this template -->
     <link href="{% static 'css/cover.css'%}?after" rel="stylesheet">
-    <link href="{% static 'css/main_footer.css'%}?after" rel="stylesheet">
-    <link href="{% static 'css/main.css'%}" rel="stylesheet">
+    <link href="{% static 'css/main_footer.css'%}" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}?after" rel="stylesheet">
   </head>
   <body class="d-flex h-100 text-bg-light">
     
@@ -94,81 +94,91 @@
   </header>
 
   <main class="">
-    <div align="center" class="container border border-4 rounded-4 mb-2">
-      <span class="row">
-        <div class="col-1">
-          <img class="chat_img" src="{%static 'img/main_chat/guide1.png'%}">
-        </div>
-        <div class="col-9">
-          <div class="row">
-            <p class="chat_name">Miyoung</p>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide1.png'%}">
           </div>
-          <div class="row">
-            <p class="chat_talk">I'm glad you liked it :)</p>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Miyoung</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">I'm glad you liked it :)</p>
+            </div>
           </div>
-        </div>
-      </span>
-    </div>
-    <div align="center" class="container border border-4 rounded-4 mb-2">
-      <span class="row">
-        <div class="col-2">
-          <img class="chat_img" src="{%static 'img/main_chat/guide2.png'%}">
-        </div>
-        <div class="col-8">
-          <div class="row">
-            <p class="chat_name">Na Yeon Lee</p>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide2.png'%}">
           </div>
-          <div class="row">
-            <p class="chat_talk">Sure. What days do you want??</p>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Na Yeon Lee</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">Sure. What days do you wan</p>
+            </div>
           </div>
-        </div>
-      </span>
-    </div>
-    <div align="center" class="container border border-4 rounded-4 mb-2">
-      <span class="row">
-        <div class="col-2">
-          <img class="chat_img" src="{%static 'img/main_chat/guide3.png'%}">
-        </div>
-        <div class="col-8">
-          <div class="row">
-            <p class="chat_name">Ji Soo</p>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">  
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide3.png'%}">
           </div>
-          <div class="row">
-            <p class="chat_talk">Okay. I'll focus on those places.</p>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Ji Soo</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">Okay. I'll focus on those plac</p>
+            </div>
           </div>
-        </div>
-      </span>
-    </div>
-    <div align="center" class="container border border-4 rounded-4 mb-2">
-      <span class="row">
-        <div class="col-2">
-          <img class="chat_img" src="{%static 'img/main_chat/guide4.png'%}">
-        </div>
-        <div class="col-8">
-          <div class="row">
-            <p class="chat_name">Jun Yeop Park</p>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5 mb-3">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide4.png'%}">
           </div>
-          <div class="row">
-            <p class="chat_talk">we can meet in front of U Sqare!</p>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Jun Park</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">we can meet in front of U Sq</p>
+            </div>
           </div>
-        </div>
-      </span>
-    </div>
-    <div align="center" class="container border border-4 rounded-4" style="margin-bottom: 100px;">
-      <span class="row">
-        <div class="col-2">
-          <img class="chat_img" src="{%static 'img/main_chat/guide5.png'%}">
-        </div>
-        <div class="col-8">
-          <div class="row">
-            <p class="chat_name">Dave</p>
+        </span>
+      </div>
+    </a>
+    <a style="text-decoration:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <div align="center" class="container border border-3 rounded-5" style="margin-bottom: 100px;">
+        <span class="row">
+          <div class="col-3">
+            <img class="chat_img" src="{%static 'img/main_chat/guide5.png'%}">
           </div>
-          <div class="row">
-            <p class="chat_talk">I had a great time, too!</p>
+          <div class="col-7" align="left">
+            <div class="row">
+              <p class="chat_name">Dave</p>
+            </div>
+            <div class="row">
+              <p class="chat_talk">I had a great time, too!</p>
+            </div>
           </div>
-        </div>
-      </span>
-    </div>
+        </span>
+      </div>
+    </a>
   </main>
 
   <footer class="footer py-xl-5 rounded-top-4">
@@ -201,6 +211,46 @@
       </div>
     </div>
   </footer>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p class="appname offcanvas-title mt-5" id="offcanvasRightLabel">Chat with Miyoung</p>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-2 me-4">
+          <img src="{%static 'img/main_chat/guide1.png'%}">
+        </div>
+        <div class="col-8 border border-4 rounded-5">
+          <div class="row">
+            <p class="chat_talk_full">Hello there, thank you for <br>sending the request form of <br>the travel in Seoul! I will pick <br>you at the airport!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 border border-4 rounded-5 me-4">
+          <div class="row">
+            <p class="chat_talk_full">Okay, see you there! :)</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="{%static 'img/main_home/me.png'%}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div align="center">
+    <form class="offcanvas-form col-11 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+      <input type="search" class="form-control rounded-5" placeholder="text something..." aria-label="Search">
+    </form>
+  </div>
+</div>
+</div>
 </div>
 
 

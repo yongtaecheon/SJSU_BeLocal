@@ -17,6 +17,12 @@
     font-weight: 600;
 }
 
+.appname-modal {
+    position:relative;
+    font-size:40px;
+    font-weight: 600;
+}
+
 input::-webkit-input-placeholder{
     background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png) ;
     background-size: contain;
@@ -149,13 +155,20 @@ div.scrollmenu img:hover {
 .chat_name {
     position:relative;
     top:10px;
-    font-size:30px;
+    font-size:25px;
     font-weight: 600;
+    color:black;
 }
 
 .chat_talk {
     position:relative;
-    left:15px;
+    color:#818181;
+    white-space:nowrap; 
+}
+.chat_talk_full {
+    position:relative;
+    top:8px;
+    right:2px;
     color:#818181;
     white-space:nowrap; 
 }

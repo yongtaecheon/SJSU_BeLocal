@@ -32,5 +32,5 @@ def main_map(request):
 def main_chat(request):
     return render(request, 'main/chat.html')
 
-def main_guide_home(request):
-    return render(request, 'main/guide_home.html')
+def guide_home(request):
+    return render(request, 'guide/home.html')
