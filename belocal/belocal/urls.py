@@ -20,12 +20,11 @@ import belocal_app.views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', belocal_app.views.cover, name='main'),
-    path('login_personal/',belocal_app.views.login_personal),
-    path('signin/',belocal_app.views.signin),
-    path('signup/',belocal_app.views.signup),
-    path('profile/',belocal_app.views.profile),
-    path('register_course/',belocal_app.views.register_course),
+    path('', belocal_app.views.cover, name='cover'),
+    path('signin/',belocal_app.views.signin, name='signin'),
+    path('signup/',belocal_app.views.signup, name='signup'),
+    path('profile/',belocal_app.views.profile, name='profile'),
+    path('register_course/',belocal_app.views.register_course, name='register_course'),
     path('reward_ask/', belocal_app.views.reward_ask, name='reward_ask'),
     path('question1/', belocal_app.views.question1, name='question1'),
     path('question2/', belocal_app.views.question2, name='question2'),

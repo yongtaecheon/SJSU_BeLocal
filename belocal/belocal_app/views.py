@@ -16,14 +16,11 @@ API_KEY5 = 'AIzaSyB5nnPCXwDu3BWpCQxcrpa8mdJYqBZANjQ'
 def cover(request):
     return render(request, 'cover.html')
 
-def login_personal(request):
-    return render(request, 'login_personal.html')
-
 def signin(request):
-    return render(request,'signin.html')
+    return render(request,'login/signin.html')
 
 def signup(request):
-    return render(request,'signup.html')
+    return render(request,'login/signup.html')
 
 def profile(request):
     return render(request,'profile.html')
